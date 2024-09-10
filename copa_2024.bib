@@ -1,0 +1,646 @@
+
+
+@Proceedings{COPA20242024,
+  title =     {Proceedings of the Thirteenth Symposium on Conformal and Probabilistic Prediction with Applications},
+  booktitle = {Proceedings of the Thirteenth Symposium on Conformal and Probabilistic Prediction with Applications},
+  editor =    {Vantini, Simone  and Fontana, Matteo  and Solari, Aldo and Bostr\"{o}m, Henrik  and Carlsson, Lars},
+  name =      {The 13th Symposium on Conformal and Probabilistic Prediction with Applications},
+  shortname = {COPA},
+  start =     {2024-09-09},
+  end =     {2024-09-11},
+  published = {2024-09-10},
+  address =   {Politecnico di Milano, Milano, Italy},
+  conference_url = {https://copa-conference.com/},
+  conference_number = {13},
+  year =      {2024},
+  publisher = {PMLR},
+  series =    {Proceedings of Machine Learning Research},
+  volume =    230
+}
+
+
+@InProceedings{vantini24a,
+  title = 	 {Preface},
+  author =       {Vantini, Simone  and Fontana, Matteo  and Solari, Aldo and Bostr\"{o}m, Henrik  and Carlsson, Lars},
+  booktitle = 	 {Proceedings of the Thirteenth Symposium on Conformal and Probabilistic Prediction with Applications},
+  pages = 	 {1--4},
+  year = 	 {2024},
+  editor = 	 {Vantini, Simone  and Fontana, Matteo  and Solari, Aldo and Bostr\"{o}m, Henrik  and Carlsson, Lars},
+  volume = 	 {230},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {9--11 Sep},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v230/vantini24a/vantini24a.pdf},
+  url = 	 {https://proceedings.mlr.press/v230/vantini24a.html}
+}
+
+
+@InProceedings{clarkson24a,
+  title = 	 {Split Conformal Prediction under Data Contamination},
+  author =       {Clarkson, Jason and Xu, Wenkai and Cucuringu, Mihai and Reinert, Gesine},
+  booktitle = 	 {Proceedings of the Thirteenth Symposium on Conformal and Probabilistic Prediction with Applications},
+  pages = 	 {5--27},
+  year = 	 {2024},
+  editor = 	 {Vantini, Simone  and Fontana, Matteo  and Solari, Aldo and Bostr\"{o}m, Henrik  and Carlsson, Lars},
+  volume = 	 {230},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {9--11 Sep},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v230/vantini24a/clarkson24a.pdf},
+  url = 	 {https://proceedings.mlr.press/v230/clarkson24a.html},
+  abstract = 	 {Conformal prediction is a non-parametric technique for constructing prediction intervals or sets from arbitrary predictive models under the assumption that the data is exchangeable. It is popular as it comes with theoretical guarantees on the marginal coverage of the prediction sets and the split conformal prediction variant has a very low computational cost compared to model training. We study the robustness of split conformal prediction in a data contamination setting, where we assume a small fraction of the calibration scores are drawn from a different distribution than the bulk. We quantify the impact of the corrupted data on the coverage and efficiency of the constructed sets when evaluated on clean test points, and verify our results with numerical experiments. Moreover, we propose an adjustment in the classification setting which we call Contamination Robust Conformal Prediction, and verify the efficacy of our approach using both synthetic and real datasets.}
+}
+
+
+@InProceedings{carlevaro24a,
+  title = 	 {A probabilistic scaling approach to conformal predictions in binary image classification},
+  author =       {Carlevaro, Alberto and Narteni, Sara and Dabbene, Fabrizio and Alamo, Teodoro and Mongelli, Maurizio},
+  booktitle = 	 {Proceedings of the Thirteenth Symposium on Conformal and Probabilistic Prediction with Applications},
+  pages = 	 {28--43},
+  year = 	 {2024},
+  editor = 	 {Vantini, Simone  and Fontana, Matteo  and Solari, Aldo and Bostr\"{o}m, Henrik  and Carlsson, Lars},
+  volume = 	 {230},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {9--11 Sep},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v230/vantini24a/carlevaro24a.pdf},
+  url = 	 {https://proceedings.mlr.press/v230/carlevaro24a.html},
+  abstract = 	 {Deep learning solutions for image classification are more and more widespread and sophisticated today, bringing the necessity to properly address their reliability. Many approaches exist in uncertainty quantification, and, among these, conformal prediction is one of most solid and well-established frameworks. In this paper, we study another approach, defined as deep probabilistic scaling, based on the notion of scalable classifiers, combined with probabilistic scaling from order statistics. Given a pre-trained neural network for (binary) image classification and a target class on which it is desirable to control the error, this method is able to bound that error to a user-defined level ($\varepsilon$). The method individuates probabilistic safety regions of target class samples correctly predicted in high probability.
+We show how the proposed method links with conformal prediction, discussing analogies and differences. By considering a (binary) convolutional neural network classifier, experiments on several benchmark datasets show a good overall performance of the methodology in controlling false negatives.}
+}
+
+
+@InProceedings{singh24a,
+  title = 	 {Distribution-free risk assessment of regression-based machine learning algorithms},
+  author =       {Singh, Sukrita and Sarna, Neeraj and Li, Yuanyuan and Lin, Yang and Orfanoudaki, Agni and Berger, Michael},
+  booktitle = 	 {Proceedings of the Thirteenth Symposium on Conformal and Probabilistic Prediction with Applications},
+  pages = 	 {44--64},
+  year = 	 {2024},
+  editor = 	 {Vantini, Simone  and Fontana, Matteo  and Solari, Aldo and Bostr\"{o}m, Henrik  and Carlsson, Lars},
+  volume = 	 {230},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {9--11 Sep},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v230/vantini24a/singh24a.pdf},
+  url = 	 {https://proceedings.mlr.press/v230/singh24a.html},
+  abstract = 	 {In safety-critical applications, such as medicine and healthcare, decision makers are hesitant to deploy machine learning models unless the expected algorithmic errors are guaranteed to remain within pre-defined tolerances. However, since ML algorithms are statistical in nature, a bounded error cannot be ensured for all possible data inputs. To the contrary, practitioners could be provided with an estimate of the probability the error exceeds the pre-defined tolerance interval. Thus, they will be able to better anticipate high magnitude ML errors and thus manage them more effectively. We refer to this as the risk-assessment problem and propose a novel solution for it. We propose a conformal prediction approach that translates the risk-assessment task into a prediction interval generation problem. The conformal prediction approach results in prediction intervals that are guaranteed to contain the true target variable with a given probability. Using this coverage property, we prove that our risk-assessment approach is conservative i.e., the risk we compute, under weak assumptions, is not lower than the true risk resulting from the ML algorithm. We focus on regression tasks and computationally study, and compare with other related
+methods, the performance of the proposed method both with and without covariate shift. We find that our method offers superior accuracy while being conservative.}
+}
+
+
+@InProceedings{balinsky24a,
+  title = 	 {Enhancing Conformal Prediction Using E-Test Statistics},
+  author =       {Balinsky, Alexander A. and Balinsky, Alexander David},
+  booktitle = 	 {Proceedings of the Thirteenth Symposium on Conformal and Probabilistic Prediction with Applications},
+  pages = 	 {65--72},
+  year = 	 {2024},
+  editor = 	 {Vantini, Simone  and Fontana, Matteo  and Solari, Aldo and Bostr\"{o}m, Henrik  and Carlsson, Lars},
+  volume = 	 {230},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {9--11 Sep},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v230/vantini24a/balinsky24a.pdf},
+  url = 	 {https://proceedings.mlr.press/v230/balinsky24a.html},
+  abstract = 	 {Conformal Prediction (CP) serves as a robust framework that quantifies uncertainty in predictions made by Machine Learning (ML) models. Unlike traditional point predictors, CP generates statistically valid prediction regions, also known as prediction intervals, based on the assumption of data exchangeability. Typically, the construction of conformal predictions hinges on p-values. This paper, however, ventures down an alternative path, harnessing the power of e-test statistics to augment the efficacy of conformal predictions by introducing a BB-predictor (bounded from the below predictor). The BB-predictor can be constructed under even more lenient assumptions than exchangeability.}
+}
+
+
+@InProceedings{copley24a,
+  title = 	 {The Uncertain Object: Application of Conformal Prediction to Aerial and Satellite Images},
+  author =       {Copley, Vicky and Finlay, Greg and Hiett, Ben},
+  booktitle = 	 {Proceedings of the Thirteenth Symposium on Conformal and Probabilistic Prediction with Applications},
+  pages = 	 {73--89},
+  year = 	 {2024},
+  editor = 	 {Vantini, Simone  and Fontana, Matteo  and Solari, Aldo and Bostr\"{o}m, Henrik  and Carlsson, Lars},
+  volume = 	 {230},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {9--11 Sep},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v230/vantini24a/copley24a.pdf},
+  url = 	 {https://proceedings.mlr.press/v230/copley24a.html},
+  abstract = 	 {Satellites and airborne sensors are critical components of the modern surveillance and reconnaissance capability.  A common use case involves the application of object detection models to such images in order to rapidly process the large volumes of data.  This optimises use of expensive communications channel bandwidth, reduces the cognitive load on a human interpreter and accelerates the rate at which intelligence can be generated.  However there is a clear need for statements of confidence in any predictions in order to provide context and enable trust in model outputs. Our work examines the use of conformal prediction approaches to robustly quantify types of uncertainty in object detection models applied to aerial and satellite imagery for intelligence, surveillance and reconnaissance use cases.  We investigate measures of detection and location uncertainty in a YOLO model and indicate how these may be leveraged conformal-wise to provide guarantees on the percentage of objects which aren't detected and the coverage of predicted bounding boxes.  We find that conformal approaches provide a simple and effective means to expose the uncertainty in the outputs of an object detection model and highlight the utility of this knowledge in the intelligence setting.}
+}
+
+
+@InProceedings{vovk24a,
+  title = 	 {Asymptotic uniqueness in long-term prediction},
+  author =       {Vovk, Vladimir},
+  booktitle = 	 {Proceedings of the Thirteenth Symposium on Conformal and Probabilistic Prediction with Applications},
+  pages = 	 {90--104},
+  year = 	 {2024},
+  editor = 	 {Vantini, Simone  and Fontana, Matteo  and Solari, Aldo and Bostr\"{o}m, Henrik  and Carlsson, Lars},
+  volume = 	 {230},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {9--11 Sep},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v230/vantini24a/vovk24a.pdf},
+  url = 	 {https://proceedings.mlr.press/v230/vovk24a.html},
+  abstract = 	 {This paper establishes the asymptotic uniqueness of long-term probability forecasts
+  in the following form.
+  Consider two forecasters who repeatedly issue
+  probability forecasts for the infinite future.
+  The main result of the paper says that either at least one of the two forecasters will be discredited
+  or their forecasts will converge in total variation.
+  This can be regarded as a game-theoretic version of the classical Blackwell--Dubins result
+  getting rid of some of its limitations.
+  This result is further strengthened
+  along the lines of Richard Jeffrey's radical probabilism.}
+}
+
+
+@InProceedings{lopez24a,
+  title = 	 {Conformal Stability Measure of Feature Selection Algorithms},
+  author =       {L\'{o}pez-De-Castro, Marcos and Garc\'{i}a-Galindo, Alberto and Arma\~{n}anzas, Rub\'{e}n},
+  booktitle = 	 {Proceedings of the Thirteenth Symposium on Conformal and Probabilistic Prediction with Applications},
+  pages = 	 {105--119},
+  year = 	 {2024},
+  editor = 	 {Vantini, Simone  and Fontana, Matteo  and Solari, Aldo and Bostr\"{o}m, Henrik  and Carlsson, Lars},
+  volume = 	 {230},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {9--11 Sep},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v230/vantini24a/lopez24a.pdf},
+  url = 	 {https://proceedings.mlr.press/v230/lopez24a.html},
+  abstract = 	 {Quantifying the stability of feature selection techniques has been an ongoing challenge over the last two decades. A large number of stability estimators have been proposed to overcome this problem, but performance guarantees based on suitable statistical frameworks are lacking. A recently developed framework proposed a new and robust estimator of the stability and a method to quantify the uncertainty of the estimates through approximate confidence intervals. Unfortunately, this statistical framework is based on asymptotic assumptions. In situations in which a low number of subsets of selected features are available for the quantification of the stability estimator, the coverage guarantees provided by this framework do not hold. In this work, we propose a method to estimate stability and achieve validity in a situation where only a few samples are available. We take advantage of the Conformal Prediction framework, constructing prediction intervals without any assumption about the underlying distribution of data. Extensive simulations show that our method successfully achieves conservative validity. Furthermore, as the number of available samples increases efficiency is also achieved. Comparisons between prediction intervals and confidence intervals show an acceptable trade-off between coverage guarantees and the interval length for the former, while there is a clear miscoverage for the latter.}
+}
+
+
+@InProceedings{chakraborty24a,
+  title = 	 {Distribution-free Conformal Prediction for Ordinal Classification},
+  author =       {Chakraborty, Subhrasish and Tyagi, Chhavi and Qiao, Haiyan and Guo, Wenge},
+  booktitle = 	 {Proceedings of the Thirteenth Symposium on Conformal and Probabilistic Prediction with Applications},
+  pages = 	 {120--139},
+  year = 	 {2024},
+  editor = 	 {Vantini, Simone  and Fontana, Matteo  and Solari, Aldo and Bostr\"{o}m, Henrik  and Carlsson, Lars},
+  volume = 	 {230},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {9--11 Sep},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v230/vantini24a/chakraborty24a.pdf},
+  url = 	 {https://proceedings.mlr.press/v230/chakraborty24a.html},
+  abstract = 	 {Multi-label classification is a common challenge in various machine learning applications, where a single data instance can be associated with multiple classes simultaneously. The current paper proposes a novel tree-based method for multi-label classification using conformal prediction and multiple hypothesis testing. The proposed method employs hierarchical clustering with labelsets to develop a hierarchical tree, which is then formulated as a multiple-testing problem with a hierarchical structure. The split-conformal prediction method is used to obtain marginal conformal $p$-values for each tested hypothesis, and two hierarchical testing procedures are developed based on marginal conformal $p$-values, including a hierarchical Bonferroni procedure and its modification for controlling the family-wise error rate. The prediction sets are thus formed based on the testing outcomes of these two procedures. We establish a theoretical guarantee of valid coverage for the prediction sets through proven family-wise error rate control of those two procedures.  We demonstrate the effectiveness of our method in a simulation study and two real data analysis compared to other conformal methods for multi-label classification.}
+}
+
+
+@InProceedings{mukama24a,
+  title = 	 {Copula-based conformal prediction for object detection: a more efficient approach},
+  author =       {Mukama, Bruce Cyusa and Messoudi, Soundouss and Rousseau, Sylvain and Destercke, S\'{e}bastien},
+  booktitle = 	 {Proceedings of the Thirteenth Symposium on Conformal and Probabilistic Prediction with Applications},
+  pages = 	 {140--157},
+  year = 	 {2024},
+  editor = 	 {Vantini, Simone  and Fontana, Matteo  and Solari, Aldo and Bostr\"{o}m, Henrik  and Carlsson, Lars},
+  volume = 	 {230},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {9--11 Sep},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v230/vantini24a/mukama24a.pdf},
+  url = 	 {https://proceedings.mlr.press/v230/mukama24a.html},
+  abstract = 	 {Object detection is an important vision task, and providing statistical guarantees around such detections can be of critical importance. So far, most conformal bounding box regression approaches do not simultaneously account for heteroscedasticity and dependencies between the residuals of each dimension. In this paper, we examine the importance of such dependencies and heteroscedasticity in the context of multi-target conformal regression, we apply copula-based conformal prediction methods to model them and to improve the volume of bounding box prediction regions. We compare these methods to the state-of-the-art conformal object detection approaches (on the KITTI \& the BDD100K autonomous driving benchmarks) and the empirical copula-based method shows high-efficiency results that are robust w.r.t. heteroscedasticity and also robust w.r.t. the structure of the dependencies.}
+}
+
+
+@InProceedings{alkhatib24a,
+  title = 	 {Estimating Quality of Approximated Shapley Values Using Conformal Prediction},
+  author =       {Alkhatib, Amr and Bostr\"{o}m, Henrik and Johansson, Ulf},
+  booktitle = 	 {Proceedings of the Thirteenth Symposium on Conformal and Probabilistic Prediction with Applications},
+  pages = 	 {158--174},
+  year = 	 {2024},
+  editor = 	 {Vantini, Simone  and Fontana, Matteo  and Solari, Aldo and Bostr\"{o}m, Henrik  and Carlsson, Lars},
+  volume = 	 {230},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {9--11 Sep},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v230/vantini24a/alkhatib24a.pdf},
+  url = 	 {https://proceedings.mlr.press/v230/alkhatib24a.html},
+  abstract = 	 {Thanks to their theoretically proven properties, Shapley values have received a lot of attention as a means to explain predictions within the area of explainable machine learning. However, the computation of Shapley values is time-consuming and computationally expensive, in particular for datasets with high dimensionality, often rendering them impractical for generating timely explanations. Methods to approximate Shapley values, e.g., FastSHAP, offer a solution with adequate computational cost. However, such approximations come with a degree of uncertainty. Therefore, we propose a method to measure the fidelity of Shapley value approximations and use the conformal prediction framework to provide validity guarantees for the whole explanation in contrast to an earlier approach that offered validity guarantees on a per-feature importance basis, disregarding the relative importance of the remaining feature scores within the same explanation. We propose a set of difficulty estimation functions devised to consider the difficulty of explanation approximations. We provide a large-scale empirical investigation where the proposed difficulty estimators are evaluated with respect to their efficiency (interval size) in measuring the similarity to the ground truth Shapley values. The results suggest that the proposed approach can provide predictions coupled with informative validity guarantees (tight intervals), allowing the user to trust/reject the provided explanations based on their similarity to the ground truth values.}
+}
+
+
+@InProceedings{lofstrom24a,
+  title = 	 {Calibrated Explanations for Multi-class},
+  author =       {L\"{o}fstr\"{o}m, Tuwe and L\"{o}fstr\"{o}m, Helena and Johansson, Ulf},
+  booktitle = 	 {Proceedings of the Thirteenth Symposium on Conformal and Probabilistic Prediction with Applications},
+  pages = 	 {175--194},
+  year = 	 {2024},
+  editor = 	 {Vantini, Simone  and Fontana, Matteo  and Solari, Aldo and Bostr\"{o}m, Henrik  and Carlsson, Lars},
+  volume = 	 {230},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {9--11 Sep},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v230/vantini24a/lofstrom24a.pdf},
+  url = 	 {https://proceedings.mlr.press/v230/lofstrom24a.html},
+  abstract = 	 {Calibrated Explanations is a recently proposed feature importance explanation method providing uncertainty quantification. It utilises Venn-Abers to generate well-calibrated factual and counterfactual explanations for binary classification. In this paper, we extend the method to support multi-class classification. The paper includes an evaluation illustrating the calibration quality of the selected multi-class calibration approach, as well as a demonstration of how the explanations can help determine which explanations to trust.}
+}
+
+
+@InProceedings{kharazian24a,
+  title = 	 {CoPAL: Conformal Prediction in Active Learning An Algorithm for Enhancing Remaining Useful Life Estimation in Predictive Maintenance},
+  author =       {Kharazian, Zahra and Lindgren, Tony and Magnusson, Sindri and Bostr\"{o}m, Henrik},
+  booktitle = 	 {Proceedings of the Thirteenth Symposium on Conformal and Probabilistic Prediction with Applications},
+  pages = 	 {195--217},
+  year = 	 {2024},
+  editor = 	 {Vantini, Simone  and Fontana, Matteo  and Solari, Aldo and Bostr\"{o}m, Henrik  and Carlsson, Lars},
+  volume = 	 {230},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {9--11 Sep},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v230/vantini24a/kharazian24a.pdf},
+  url = 	 {https://proceedings.mlr.press/v230/kharazian24a.html},
+  abstract = 	 {Active learning has received considerable attention as an approach to obtain high predictive performance while minimizing the labeling effort. A central component of the active learning framework concerns the selection of objects for labeling, which are used for iteratively updating the underlying model. In this work, an algorithm called CoPAL (Conformal Prediction for Active Learning) is proposed, which makes the selection of objects within active learning based on the uncertainty as quantified by conformal prediction. The efficacy of CoPAL is investigated by considering the task of estimating the remaining useful life (RUL) of assets in the domain of predictive maintenance (PdM). Experimental results are presented, encompassing diverse setups, including different models, sample selection criteria, conformal predictors, and datasets, using root mean squared error (RMSE) as the primary evaluation metric while also reporting prediction interval sizes over the iterations. The comprehensive analysis confirms the positive effect of using CoPAL for improving predictive performance.}
+}
+
+
+@InProceedings{giovannotti24a,
+  title = 	 {Calibrated Large Language Models for Binary Question Answering},
+  author =       {Giovannotti, Patrizio and Gammerman, Alexander},
+  booktitle = 	 {Proceedings of the Thirteenth Symposium on Conformal and Probabilistic Prediction with Applications},
+  pages = 	 {218--235},
+  year = 	 {2024},
+  editor = 	 {Vantini, Simone  and Fontana, Matteo  and Solari, Aldo and Bostr\"{o}m, Henrik  and Carlsson, Lars},
+  volume = 	 {230},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {9--11 Sep},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v230/vantini24a/giovannotti24a.pdf},
+  url = 	 {https://proceedings.mlr.press/v230/giovannotti24a.html},
+  abstract = 	 {Quantifying the uncertainty of predictions made by large language models (LLMs) in binary text classification tasks remains a challenge. Calibration, in the context of LLMs, refers to the alignment between the model's predicted probabilities and the actual correctness of its predictions. A well-calibrated model should produce probabilities that accurately reflect the likelihood of its predictions being correct. We propose a novel approach that utilizes the inductive Venn--Abers predictor (IVAP) to calibrate the probabilities associated with the output tokens corresponding to the binary labels. Our experiments on the BoolQ dataset using the Llama 2 model demonstrate that IVAP consistently outperforms the commonly used temperature scaling method for various label token choices, achieving well-calibrated probabilities while maintaining high predictive quality. Our findings contribute to the understanding of calibration techniques for LLMs and provide a practical solution for obtaining reliable uncertainty estimates in binary question answering tasks, enhancing the interpretability and trustworthiness of LLM predictions.}
+}
+
+
+@InProceedings{bostrom24a,
+  title = 	 {Conformal Prediction in Python with crepes},
+  author =       {Bostr\"{o}m, Henrik},
+  booktitle = 	 {Proceedings of the Thirteenth Symposium on Conformal and Probabilistic Prediction with Applications},
+  pages = 	 {236--249},
+  year = 	 {2024},
+  editor = 	 {Vantini, Simone  and Fontana, Matteo  and Solari, Aldo and Bostr\"{o}m, Henrik  and Carlsson, Lars},
+  volume = 	 {230},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {9--11 Sep},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v230/vantini24a/bostrom24a.pdf},
+  url = 	 {https://proceedings.mlr.press/v230/bostrom24a.html},
+  abstract = 	 {\verb|crepes| is a Python package for conformal prediction, which has been extended in several ways since its introduction. While the original version of the package focused on conformal regressors and predictive systems, the current version also includes conformal classifiers. New classes and methods for computing non-conformity scores and Mondrian categories have also been incorporated. Moreover, the package has been extended to allow for seamless embedding of classifiers and regressors in the conformal prediction framework; instead of generating conformal predictors that are separate from the learners, the latter can now be equipped with specific prediction methods that in addition to providing point predictions also can generate p-values, prediction sets and intervals, as well as conformal predictive distributions. Extensive documentation for the package has furthermore been developed. In this paper, these extensions are described, as implemented in \verb|crepes|, version 0.7.0.}
+}
+
+
+@InProceedings{hallberg24a,
+  title = 	 {Adaptive Conformal Inference for Multi-Step Ahead Time-Series Forecasting Online},
+  author =       {Hallberg Szabadv\'{a}ry, Johan},
+  booktitle = 	 {Proceedings of the Thirteenth Symposium on Conformal and Probabilistic Prediction with Applications},
+  pages = 	 {250--263},
+  year = 	 {2024},
+  editor = 	 {Vantini, Simone  and Fontana, Matteo  and Solari, Aldo and Bostr\"{o}m, Henrik  and Carlsson, Lars},
+  volume = 	 {230},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {9--11 Sep},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v230/vantini24a/hallberg24a.pdf},
+  url = 	 {https://proceedings.mlr.press/v230/hallberg24a.html},
+  abstract = 	 {The aim of this paper is to propose an adaptation of the well known adaptive conformal inference (ACI) algorithm to achieve finite-sample coverage guarantees in multi-step ahead time-series forecasting in the online setting. ACI dynamically adjusts significance levels, and comes with finite-sample guarantees on coverage, even for non-exchangeable data. Our multi-step ahead ACI procedure inherits these guarantees at each prediction step, as well as for the overall error rate. The multi-step ahead ACI algorithm can be used with different target error and learning rates at different prediction steps, which is illustrated in our numerical examples, where we employ a version of the confromalised ridge regression algorithm, adapted to multi-input multi-output forecasting. The examples serve to show how the method works in practice, illustrating the effect of variable target error and learning rates for different prediction steps, which suggests that a balance may be struck between efficiency (interval width) and coverage.}
+}
+
+
+@InProceedings{luo24a,
+  title = 	 {Entropy Reweighted Conformal Classification},
+  author =       {Luo, Rui and Colombo, Nicolo},
+  booktitle = 	 {Proceedings of the Thirteenth Symposium on Conformal and Probabilistic Prediction with Applications},
+  pages = 	 {264--276},
+  year = 	 {2024},
+  editor = 	 {Vantini, Simone  and Fontana, Matteo  and Solari, Aldo and Bostr\"{o}m, Henrik  and Carlsson, Lars},
+  volume = 	 {230},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {9--11 Sep},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v230/vantini24a/luo24a.pdf},
+  url = 	 {https://proceedings.mlr.press/v230/luo24a.html},
+  abstract = 	 {Conformal Prediction (CP) is a powerful framework for constructing prediction sets with guaranteed coverage. However, recent studies have shown that integrating confidence calibration with CP can lead to a degradation in efficiency. In this paper, We propose an adaptive approach that considers the classifier's uncertainty and employs entropy-based reweighting to enhance the efficiency of prediction sets for conformal classification. Our experimental results demonstrate that this method significantly improves efficiency.}
+}
+
+
+
+@InProceedings{johansson24a,
+  title = 	 {Conformal Regression with Reject Option},
+  author =       {Johansson, Ulf and S\"{o}nstr\"{o}d, Cecilia and Bostr\"{o}m, Henrik},
+  booktitle = 	 {Proceedings of the Thirteenth Symposium on Conformal and Probabilistic Prediction with Applications},
+  pages = 	 {277--294},
+  year = 	 {2024},
+  editor = 	 {Vantini, Simone  and Fontana, Matteo  and Solari, Aldo and Bostr\"{o}m, Henrik  and Carlsson, Lars},
+  volume = 	 {230},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {9--11 Sep},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v230/vantini24a/johansson24a.pdf},
+  url = 	 {https://proceedings.mlr.press/v230/johansson24a.html},
+  abstract = 	 {A regressor with reject option may refrain from making predictions expected to be inaccurate. In this paper, we introduce and evaluate conformal regression with reject option. Consistent with standard conformal regression, non-rejected predictions are valid prediction intervals. The suggested approach utilizes Mondrian conformal regression, where the categories are dynamically created from difficulty estimations of individual instances and requested rejection levels. As shown in the experiments, using $16$ publicly available data sets and random forests as underlying models, the conformal regressors produced progressively tighter intervals for higher rejection levels, thus demonstrating the trade-off between coverage and informativeness targeted when adding a reject option. A key property of the novel method is the fact that the informativeness, i.e., the interval sizes, resulting from any combination of significance and rejection levels is known to the user before making any test predictions. While all four different difficulty estimators evaluated led to consistently tighter intervals for higher rejection levels, the one producing the most efficient conformal regressors utilized the disagreement between the trees in the Random forest.}
+}
+
+%22
+@InProceedings{garcia24a,
+  title = 	 {Multi-class Classification with Reject Option and Performance Guarantees using Conformal Prediction},
+  author =       {Garc\'ia-Galindo, Alberto and L\'opez-De-Castro, Marcos and Arma\~nanzas, Rub\'en},
+  booktitle = 	 {Proceedings of the Thirteenth Symposium on Conformal and Probabilistic Prediction with Applications},
+  pages = 	 {295--314},
+  year = 	 {2024},
+  editor = 	 {Vantini, Simone  and Fontana, Matteo  and Solari, Aldo and Bostr\"{o}m, Henrik  and Carlsson, Lars},
+  volume = 	 {230},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {9--11 Sep},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v230/vantini24a/garcia24a.pdf},
+  url = 	 {https://proceedings.mlr.press/v230/garcia24a.html},
+  abstract = 	 {Beyond the standard classification scenario, allowing a classifier to refrain from making a prediction under uncertainty can have advantages in safety-critical applications, where a mistake may hold great costs. In this paper, we extend previous works on the development of classifiers with reject option grounded on the conformal prediction framework. Specifically, our work introduces a novel approach for inducing multi-class classifiers with reliable accuracy or recall estimates for a given rejection rate. We empirically evaluate our suggested approach in six multi-class datasets and demonstrate its effectiveness against both calibrated and uncalibrated probabilistic classifiers. The results underscore our method's capability to provide reliable error rate estimates, thereby enhancing decision-making processes where erroneous predictions bear critical consequences.}
+}
+
+
+%23
+@InProceedings{okanik24a,
+  title = 	 {Uncertainty Quantification for Metamodels},
+  author =       {Ok\'anik, Martin and Trantas, Athanasios and de Bakker, Merijn Pepijn and Lazovik, Elena},
+  booktitle = 	 {Proceedings of the Thirteenth Symposium on Conformal and Probabilistic Prediction with Applications},
+  pages = 	 {315--344},
+  year = 	 {2024},
+  editor = 	 {Vantini, Simone  and Fontana, Matteo  and Solari, Aldo and Bostr\"{o}m, Henrik  and Carlsson, Lars},
+  volume = 	 {230},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {9--11 Sep},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v230/vantini24a/okanik24a.pdf},
+  url = 	 {https://proceedings.mlr.press/v230/okanik24a.html},
+  abstract = 	 {In the realm of computational science, metamodels serve as indispensable tools for approximating complex systems, facilitating the exploration of scenarios where traditional modelling may prove computationally infeasible. However, the inherent uncertainties within these metamodels, particularly those driven by Machine Learning (ML), necessitate rigorous quantification to ensure reliability and robustness in decision-making processes. One alternative of obtaining uncertainty estimates is using ML models that have a native notion of uncertainty, such as the Bayesian Neural Networks (BNNs), however its repeated sampling necessary to approximate the output distribution is computationally demanding and might defeat the purpose of building metamodels in the first place. In datasets with multidimensional input space and a limited amount of training examples, error estimates provided by BNNs often have poor quality. This study explores alternative empirical approaches to uncertainty quantification, based on knowledge extraction from output space as opposed to input space. Leveraging patterns of magnitude of error committed by the metamodel in output space, we obtain significant improvement of adaptivity of prediction intervals, both over pure Conformal Prediction (CP) and BNNs. Our findings underscore the potential of integrating diverse uncertainty quantification methods to fortify reliability of metamodels, highlighting their robust and quantifiable confidence in model predictions.}
+}
+
+
+%24
+@InProceedings{galvao24a,
+  title = 	 {ConForME: Multi-horizon conditional conformal time series forecasting},
+  author =       {Galv\~ao Lopes, Aloysio and Goubault, Eric and Putot, Sylvie and Pautet, Laurent},
+  booktitle = 	 {Proceedings of the Thirteenth Symposium on Conformal and Probabilistic Prediction with Applications},
+  pages = 	 {345--365},
+  year = 	 {2024},
+  editor = 	 {Vantini, Simone  and Fontana, Matteo  and Solari, Aldo and Bostr\"{o}m, Henrik  and Carlsson, Lars},
+  volume = 	 {230},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {9--11 Sep},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v230/vantini24a/galvao24a.pdf},
+  url = 	 {https://proceedings.mlr.press/v230/galvao24a.html},
+  abstract = 	 {Split conformal prediction is a statistical method known for its finite-sample coverage guarantees, simplicity, and low computational cost. As such, it is suitable for predicting uncertainty regions in time series forecasting. However, in the context of multi-horizon forecasting, the current literature lacks conformal methods that produce efficient intervals and have low computational cost.
+Building on the foundation of split conformal prediction and one of its most prominent extensions to multi-horizon time series forecasting (CF-RNN), we introduce ConForME, a method that leverages the time dependence within time series to construct efficient multi-horizon prediction intervals with probabilistic joint coverage guarantees. We prove its validity and support our claims with experiments on both synthetic and real-world data. Across all instances, our method outperforms CF-RNN in terms of mean, min, and max interval sizes over the entire prediction horizon, achieving improvements of up to 52\%. The experiments also suggest that these improvements can be further increased by extending the prediction horizon and through hyperparameter optimization.}
+}
+
+%25
+@InProceedings{hjort24a,
+  title = 	 {Clustered Conformal Prediction for the Housing Market},
+  author =       {Hjort, Anders and Williams, Jonathan P. and Pensar, Johan},
+  booktitle = 	 {Proceedings of the Thirteenth Symposium on Conformal and Probabilistic Prediction with Applications},
+  pages = 	 {366--386},
+  year = 	 {2024},
+  editor = 	 {Vantini, Simone  and Fontana, Matteo  and Solari, Aldo and Bostr\"{o}m, Henrik  and Carlsson, Lars},
+  volume = 	 {230},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {9--11 Sep},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v230/vantini24a/hjort24a.pdf},
+  url = 	 {https://proceedings.mlr.press/v230/hjort24a.html},
+  abstract = 	 {Conformal prediction (CP) is a framework for constructing confidence sets around predictions from machine learning models with finite sample guarantees with few assumptions on both the prediction model and the data. In practice, the construction of CP sets typically relies on quantile estimates from an empirical distribution of non-conformity scores. When the data set consists of predefined, non-overlapping classes such as geographical regions, a common technique for improving the confidence sets is to calculate a different quantile for each class. However, the classwise quantile estimate suffers from high variance when the number of observations in each class is low. To circumvent this, one can share calibration data between classes with similar empirical distributions of non-conformity scores to reduce the variance of the quantile estimate. We study this approach for the application of house price prediction in the Norwegian housing market, where $286$ different municipalities serve as the initial classes of the data. We find that clustering together municipalities based on non-conformity score distributions, agnostic of the spatial distance between them, leads to CP sets that achieve, on average, a lower coverage gap in each municipality, in particular for the municipalities with few observations.}
+}
+
+
+%26
+@InProceedings{eliades24a,
+  title = 	 {Reliable Change Point Detection for ACGH data},
+  author =       {Eliades, Charalambos and Papadopoulos, Harris},
+  booktitle = 	 {Proceedings of the Thirteenth Symposium on Conformal and Probabilistic Prediction with Applications},
+  pages = 	 {387--405},
+  year = 	 {2024},
+  editor = 	 {Vantini, Simone  and Fontana, Matteo  and Solari, Aldo and Bostr\"{o}m, Henrik  and Carlsson, Lars},
+  volume = 	 {230},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {9--11 Sep},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v230/vantini24a/eliades24a.pdf},
+  url = 	 {https://proceedings.mlr.press/v230/eliades24a.html},
+  abstract = 	 {This study introduces two algorithms based on the Inductive Conformal Martingale (ICM) approach to address the change point (CP) detection problem in array-based Comparative Genomic Hybridization (aCGH) data. The ICM, a distribution-free approach with minimal assumptions, is particularly suitable for this application. We have implemented two ICM-based algorithms; the first utilizes nonconformities from preprocessed data, while the second incorporates the label conditional distribution and the labels' distribution to enhance detection accuracy. This approach significantly improves our results, demonstrating the potential of ICM in complex genomic data analysis.}
+}
+
+%27
+@InProceedings{jonkers24a,
+  title = 	 {Conformal Predictive Systems Under Covariate Shift},
+  author =       {Jonkers, Jef and Van Wallendael, Glenn and Duchateau, Luc and Van Hoecke, Sofie},
+  booktitle = 	 {Proceedings of the Thirteenth Symposium on Conformal and Probabilistic Prediction with Applications},
+  pages = 	 {406--423},
+  year = 	 {2024},
+  editor = 	 {Vantini, Simone  and Fontana, Matteo  and Solari, Aldo and Bostr\"{o}m, Henrik  and Carlsson, Lars},
+  volume = 	 {230},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {9--11 Sep},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v230/vantini24a/jonkers24a.pdf},
+  url = 	 {https://proceedings.mlr.press/v230/jonkers24a.html},
+  abstract = 	 {Conformal predictive systems (CPS) offer a versatile framework for constructing predictive distributions, allowing for calibrated inference and informative decision-making. However, their applicability has been limited to scenarios adhering to the independent and identically distributed (IID) model assumption. This paper extends CPS to accommodate scenarios characterized by covariate shifts. We therefore propose weighted CPS (WCPS), akin to weighted conformal prediction (WCP), leveraging likelihood ratios between training and testing covariate distributions. This extension enables the construction of nonparametric predictive distributions capable of handling covariate shifts. We present theoretical underpinnings and conjectures regarding the validity and efficacy of WCPS and demonstrate its utility through empirical evaluations on both synthetic and real-world datasets. Our simulation experiments indicate that WCPS are probabilistically calibrated under covariate shift.}
+}
+
+
+%28
+@InProceedings{lofstrom24b,
+  title = 	 {Testing Exchangeability between Real and Synthetic Data},
+  author =       {L\"ofstr\"om, Helena and Carlsson, Lars and Ahlberg, Ernst},
+  booktitle = 	 {Proceedings of the Thirteenth Symposium on Conformal and Probabilistic Prediction with Applications},
+  pages = 	 {424--431},
+  year = 	 {2024},
+  editor = 	 {Vantini, Simone  and Fontana, Matteo  and Solari, Aldo and Bostr\"{o}m, Henrik  and Carlsson, Lars},
+  volume = 	 {230},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {9--11 Sep},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v230/vantini24a/lofstrom24b.pdf},
+  url = 	 {https://proceedings.mlr.press/v230/lofstrom24b.html},
+  abstract = 	 {This study introduces a method to evaluate synthetic data quality by focusing on the exchangeability of real and synthetic datasets. This is done through the use of a test martingale, which provides a statistical guarantee of the similarity of the synthetic data's representation of the original data distribution. The method was tested on six real-world datasets and their synthetic counterparts, revealing that traditional metrics such as statistical similarities and model performance may be misleading. The results indicate that the martingale test frequently rejects the hypothesis of data exchangeability, underscore the need for more robust evaluation methods. The martingale-based evaluation offers a straightforward yet effective tool to ensure that synthetic data accurately reflects the original dataset, which is essential for effective model training and validation.}
+}
+
+
+%29
+@InProceedings{prinzhorn24a,
+  title = 	 {Conformal time series decomposition with component-wise exchangeability},
+  author =       {Prinzhorn, Derck and Nijdam, Thijmen and Van der Linden, Putri and Timans, Alexander},
+  booktitle = 	 {Proceedings of the Thirteenth Symposium on Conformal and Probabilistic Prediction with Applications},
+  pages = 	 {432--465},
+  year = 	 {2024},
+  editor = 	 {Vantini, Simone  and Fontana, Matteo  and Solari, Aldo and Bostr\"{o}m, Henrik  and Carlsson, Lars},
+  volume = 	 {230},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {9--11 Sep},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v230/vantini24a/prinzhorn24a.pdf},
+  url = 	 {https://proceedings.mlr.press/v230/prinzhorn24a.html},
+  abstract = 	 {Conformal prediction offers a practical framework for distribution-free uncertainty quantification, providing finite-sample coverage guarantees under relatively mild assumptions on data exchangeability. However, these assumptions cease to hold for time series due to their temporally correlated nature. In this work, we present a novel use of conformal prediction for time series forecasting that incorporates time series decomposition. This approach allows us to model different temporal components individually. By applying specific conformal algorithms to each component and then merging the obtained prediction intervals, we customize our methods to account for the different exchangeability regimes underlying each component. Our decomposition-based approach is thoroughly discussed and empirically evaluated on synthetic and real-world data. We find that the method provides promising results on well-structured time series, but can be limited by factors such as the decomposition step for more complex data.}
+}
+
+
+%30
+@InProceedings{karimi24a,
+  title = 	 {Evidential Uncertainty Sets in Deep Classifiers Using Conformal Prediction},
+  author =       {Karimi, Hamed and Samavi, Reza},
+  booktitle = 	 {Proceedings of the Thirteenth Symposium on Conformal and Probabilistic Prediction with Applications},
+  pages = 	 {466--489},
+  year = 	 {2024},
+  editor = 	 {Vantini, Simone  and Fontana, Matteo  and Solari, Aldo and Bostr\"{o}m, Henrik  and Carlsson, Lars},
+  volume = 	 {230},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {9--11 Sep},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v230/vantini24a/karimi24a.pdf},
+  url = 	 {https://proceedings.mlr.press/v230/karimi24a.html},
+  abstract = 	 {In this paper, we propose \emph{Evidential Conformal Prediction (ECP)} method for deep classifiers to generate the conformal prediction sets. Our method is designed based on a non-conformity score function that has its roots in Evidential Deep Learning (EDL) as a method of quantifying model (epistemic) uncertainty in DNN classifiers. We use evidence that are derived from the logit values of target labels to compute the components of our non-conformity score function: the heuristic notion of uncertainty in CP, uncertainty surprisal, and expected utility. Our extensive experimental evaluation demonstrates that ECP outperforms three state-of-the-art methods for generating CP sets, in terms of their set sizes and adaptivity while maintaining the coverage of true labels.}
+}
+
+%31
+@InProceedings{nouretdinov24a,
+  title = 	 {Inductive Venn-Abers Predictive Distributions: New Applications \& Evaluation},
+  author =       {Nouretdinov, Ilia and Gammerman, James},
+  booktitle = 	 {Proceedings of the Thirteenth Symposium on Conformal and Probabilistic Prediction with Applications},
+  pages = 	 {490--507},
+  year = 	 {2024},
+  editor = 	 {Vantini, Simone  and Fontana, Matteo  and Solari, Aldo and Bostr\"{o}m, Henrik  and Carlsson, Lars},
+  volume = 	 {230},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {9--11 Sep},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v230/vantini24a/nouretdinov24a.pdf},
+  url = 	 {https://proceedings.mlr.press/v230/nouretdinov24a.html},
+  abstract = 	 {Venn-Abers predictors offer a distribution-free probabilistic framework that generates calibrated predictions from the outputs of scoring classifiers, relying on minimal assumptions about the data distribution. This paper explores the extension of this framework from classification to regression, producing predictive distributions. We show how to evaluate the efficacy of the framework by comparing various metrics that assess the accuracy and informativeness of the predictions. We also show that the framework can be used for real-time prediction, using datasets from predictive maintenance and energy consumption forecasting.}
+}
+
+%32
+@InProceedings{baviera24a,
+  title = 	 {Tailoring the Tails: Enhancing the Reliability of Probabilistic Load Forecasts},
+  author =       {Baviera, Roberto and Manzoni, Pietro},
+  booktitle = 	 {Proceedings of the Thirteenth Symposium on Conformal and Probabilistic Prediction with Applications},
+  pages = 	 {508--521},
+  year = 	 {2024},
+  editor = 	 {Vantini, Simone  and Fontana, Matteo  and Solari, Aldo and Bostr\"{o}m, Henrik  and Carlsson, Lars},
+  volume = 	 {230},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {9--11 Sep},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v230/vantini24a/baviera24a.pdf},
+  url = 	 {https://proceedings.mlr.press/v230/baviera24a.html},
+  abstract = 	 {Quantifying predictive uncertainty regarding future electricity demand is the main goal of probabilistic load forecasting. A good probabilistic model is often identified with forecasted densities that are as concentrated (``sharp'') as possible. However, this goal is frequently achieved by sacrificing forecast reliability, i.e. the statistical compatibility between forecasted densities and observed frequencies. In real-world applications, reliability is the crucial measure of model quality, especially when predicting distribution tails. We propose a new methodology for probabilistic load forecasting, introducing a novel loss function which allows an excellent balance between forecast sharpness and reliability.  We apply the proposed modelling approach for predicting the electricity load on a benchmark dataset. Experimental results show that the obtained density forecasts are extremely reliable and also close to optimal in terms of sharpness and point accuracy.}
+}
+
+%33
+@InProceedings{katsios24a,
+  title = 	 {Multi-label Conformal Prediction with a Mahalanobis Distance Nonconformity Measure},
+  author =       {Katsios, Kostas and Papadopulos, Harris},
+  booktitle = 	 {Proceedings of the Thirteenth Symposium on Conformal and Probabilistic Prediction with Applications},
+  pages = 	 {522--535},
+  year = 	 {2024},
+  editor = 	 {Vantini, Simone  and Fontana, Matteo  and Solari, Aldo and Bostr\"{o}m, Henrik  and Carlsson, Lars},
+  volume = 	 {230},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {9--11 Sep},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v230/vantini24a/katsios24a.pdf},
+  url = 	 {https://proceedings.mlr.press/v230/katsios24a.html},
+  abstract = 	 {This preliminary study introduces a Conformal Prediction method for Multi-label Classification with a nonconformity measure based on the Mahalanobis distance. The Mahalanobis measure incorporates a covariance matrix considering correlations between the errors of the underlying classifier on each label. Our experimental results show that this approach results in a significant informational efficiency improvement over the previously proposed Euclidean Norm nonconformity measure.}
+}
+
+
+%34poster
+@InProceedings{zhang24a,
+  title = 	 {Distribution-free Uncertainty Quantification for Contour Objects with Application to Tumour Segmentation in PET Imaging},
+  author =       {Zhang, Wenhui},
+  booktitle = 	 {Proceedings of the Thirteenth Symposium on Conformal and Probabilistic Prediction with Applications},
+  pages = 	 {536--537},
+  year = 	 {2024},
+  editor = 	 {Vantini, Simone  and Fontana, Matteo  and Solari, Aldo and Bostr\"{o}m, Henrik  and Carlsson, Lars},
+  volume = 	 {230},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {9--11 Sep},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v230/vantini24a/zhang24a.pdf},
+  url = 	 {https://proceedings.mlr.press/v230/zhang24a.html}
+}
+
+%35poster
+@InProceedings{abzhanov24a,
+  title = 	 {Fairness Considerations for Conformal Classification},
+  author =       {Abzhanov, Arlan and Lehmann, Brieuc},
+  booktitle = 	 {Proceedings of the Thirteenth Symposium on Conformal and Probabilistic Prediction with Applications},
+  pages = 	 {538--538},
+  year = 	 {2024},
+  editor = 	 {Vantini, Simone  and Fontana, Matteo  and Solari, Aldo and Bostr\"{o}m, Henrik  and Carlsson, Lars},
+  volume = 	 {230},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {9--11 Sep},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v230/vantini24a/abzhanov24a.pdf},
+  url = 	 {https://proceedings.mlr.press/v230/abzhanov24a.html}
+}
+
+%36poster
+@InProceedings{magnani24a,
+  title = 	 {Collective Outlier Detection and Enumeration with Conformalized Closed Testing},
+  author =       {Magnani, Chiara Gaia and Sesia, Matteo and Solari, Aldo},
+  booktitle = 	 {Proceedings of the Thirteenth Symposium on Conformal and Probabilistic Prediction with Applications},
+  pages = 	 {539--539},
+  year = 	 {2024},
+  editor = 	 {Vantini, Simone  and Fontana, Matteo  and Solari, Aldo and Bostr\"{o}m, Henrik  and Carlsson, Lars},
+  volume = 	 {230},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {9--11 Sep},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v230/vantini24a/magnani24a.pdf},
+  url = 	 {https://proceedings.mlr.press/v230/magnani24a.html}
+}
+
+%37poster
+@InProceedings{campi24a,
+  title = 	 {Preferent compression for tight generalization bounds},
+  author =       {Campi, Marco C. and Garatti, Simone},
+  booktitle = 	 {Proceedings of the Thirteenth Symposium on Conformal and Probabilistic Prediction with Applications},
+  pages = 	 {540--540},
+  year = 	 {2024},
+  editor = 	 {Vantini, Simone  and Fontana, Matteo  and Solari, Aldo and Bostr\"{o}m, Henrik  and Carlsson, Lars},
+  volume = 	 {230},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {9--11 Sep},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v230/vantini24a/campi24a.pdf},
+  url = 	 {https://proceedings.mlr.press/v230/campi24a.html}
+}
+
+%38poster
+@InProceedings{deliu24a,
+  title = 	 {Anomaly Detection in Multivariate Profiles with Conformal Bayesian Inference},
+  author =       {Deliu, Nina and Liseo, Brunero},
+  booktitle = 	 {Proceedings of the Thirteenth Symposium on Conformal and Probabilistic Prediction with Applications},
+  pages = 	 {541--542},
+  year = 	 {2024},
+  editor = 	 {Vantini, Simone  and Fontana, Matteo  and Solari, Aldo and Bostr\"{o}m, Henrik  and Carlsson, Lars},
+  volume = 	 {230},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {9--11 Sep},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v230/vantini24a/deliu24a.pdf},
+  url = 	 {https://proceedings.mlr.press/v230/deliu24a.html}
+}
+
+%39poster
+@InProceedings{ziegel24a,
+  title = 	 {(Conformal) Isotonic Distributional Regression},
+  author =       {Ziegel, Johanna},
+  booktitle = 	 {Proceedings of the Thirteenth Symposium on Conformal and Probabilistic Prediction with Applications},
+  pages = 	 {543--543},
+  year = 	 {2024},
+  editor = 	 {Vantini, Simone  and Fontana, Matteo  and Solari, Aldo and Bostr\"{o}m, Henrik  and Carlsson, Lars},
+  volume = 	 {230},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {9--11 Sep},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v230/vantini24a/ziegel24a.pdf},
+  url = 	 {https://proceedings.mlr.press/v230/ziegel24a.html}
+}
+
+
