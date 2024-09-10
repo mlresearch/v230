@@ -1,0 +1,131 @@
+\documentclass[twoside,11pt]{article}
+
+\usepackage{blindtext}
+
+% Any additional packages needed should be included after jmlr2e.
+% Note that jmlr2e.sty includes epsfig, amssymb, natbib and graphicx,
+% and defines many common macros, such as 'proof' and 'example'.
+%
+% It also sets the bibliographystyle to plainnat; for more information on
+% natbib citation styles, see the natbib documentation, a copy of which
+% is archived at http://www.jmlr.org/format/natbib.pdf
+
+% Available options for package jmlr2e are:
+%
+%   - abbrvbib : use abbrvnat for the bibliography style
+%   - nohyperref : do not load the hyperref package
+%   - preprint : remove JMLR specific information from the template,
+%         useful for example for posting to preprint servers.
+%
+% Example of using the package with custom options:
+%
+% \usepackage[abbrvbib, preprint]{jmlr2e}
+
+\usepackage{jmlr2e}
+\usepackage{outlines}
+% Definitions of handy macros can go here
+
+\newcommand{\dataset}{{\cal D}}
+\newcommand{\fracpartial}[2]{\frac{\partial #1}{\partial  #2}}
+
+% Heading arguments are {volume}{year}{pages}{date submitted}{date published}{paper id}{author-full-names}
+
+\usepackage{lastpage}
+\jmlrheading{230}{2024}{1-\pageref{LastPage}}{1/21; Revised 5/22}{9/22}{21-0000}{Author One and Author Two}
+
+% Short headings should be running head and authors last names
+
+\ShortHeadings{Preface}{One and Two}
+\firstpageno{1}
+
+\begin{document}
+
+\title{Preface}
+
+\author{\name Matteo Fontana \email matteo.fontana@rhul.ac.uk \\
+       \addr Royal Holloway, University of London, UK\\
+       \AND
+       \name Simone Vantini \email simone.vantini@polimi.it \\
+       \addr Politecnico di Milano, Italy\\
+       \AND
+       \name Henrik Böstrom \email bostromh@kth.se \\
+       \addr KTH Royal Institute of Technology, Sweden\\
+       \AND
+       \name Lars Carlsson \email lars.carlsson@ju.se \\
+       \addr Jönköping University, Sweden\\
+       Royal Holloway, University of London, UK
+       \AND
+       \name Aldo Solari \email aldo.solari@unive.it \\
+       \addr Ca' Foscari University of Venice\\
+}
+
+\maketitle
+This volume contains the Proceedings of the 13\textsuperscript{th} Symposium on Conformal and Probabilistic Prediction with Applications (COPA2024), organised by Politecnico di Milano, Italy, and held in Milano on September 9-11, 2024.
+Overall, 2 keynotes speeches, 2 tutorials, 27 presentations and 5 posters have been presented during the conference. The rest of the publication includes full papers from the 27 presentations, one from one of the tutorials, and abstracts for the keynotes, one tutorial and the 5 posters.
+Titles and authors of the keynotes and of the tutorials were as follows
+\begin{outline}
+    \1 \textbf{Keynotes}
+        \2\emph{Simultaneous Conformal Inference for Structured Matrix Completion} by Prof. Matteo Sesia
+        \2\emph{(Conformal) Isotonic Distributional Regression} by Prof. Johanna Ziegel
+    \1 \textbf{Tutorials}
+        \2\emph{MAPIE: A Versatile Tool for Conformal Prediction in Python - Uncertainty Quantification Made Easy} by Dr. Thibault Cordier
+        \2\emph{Conformal prediction in Python with crepes} by Prof. Lars Carlsson
+\end{outline}
+The papers are divided into 7 groups, namely:
+\begin{outline}
+    \1\textbf{Theory}
+        \2\emph{Enhancing Conformal Prediction Using E-Test Statistics} by Alexander A. Balinsky and Alexander David Balinsky.
+        \2\emph{Asymptotic uniqueness in long-term prediction} by Vladimir Vovk.
+        \2\emph{Split Conformal Prediction under Data Contamination} by Jason Clarkson, Wenkai Xu, Mihai Cucuringu and Gesine Reinert.
+    \1\textbf{Classification}
+        \2\emph{Multi-label Conformal Prediction with a Mahalanobis Distance Nonconformity Measure} by Kostas Katsios and Harris Papadopulos.
+        \2\emph{A probabilistic scaling approach to conformal predictions in binary image classification} by Alberto Carlevaro, Sara Narteni, Fabrizio Dabbene, Teodoro Alamo and Maurizio Mongelli. 
+        \2\emph{Calibrated Explanations for Multi-class} by Tuwe Löfström, Helena Löfström and Ulf Johansson.
+        \2\emph{Multi-class Classification with Reject Option and Performance Guarantees using Conformal Prediction} by Alberto García-Galindo, Marcos López-De-Castro and Ruben Armañanzas. 
+        \2\emph{Evidential Uncertainty Sets in Deep Classifiers Using Conformal Prediction} by Hamed Karimi and Reza Samavi. 
+        \2\emph{Entropy Reweighted Conformal Prediction for Calibrated Neural Networks} by Rui Luo and Nicolò Colombo.
+        \2\emph{Distribution-free Conformal Prediction for Ordinal Classification} by Subhrasish Chakraborty, Chhavi Tyagi, Haiyan Qiao and Wenge Guo
+    \1\textbf{Distributional Prediction}
+        \2\emph{Conformal Predictive Systems Under Covariate Shift} by Jef Jonkers, Glenn Van Wallendael, Luc Duchateau and Sofie Van Hoecke.
+        \2\emph{Inductive Venn-Abers Predictive Distributions: New Applications \& Evaluation} by Ilia Nouretdinov and James Gammerman.
+        \2\emph{Tailoring the Tails: Enhancing the Reliability of Probabilistic Load Forecasts} by Roberto Baviera and Pietro Manzoni.
+    \1\textbf{Time Series}
+        \2\emph{Adaptive Conformal Inference for Multi-Step Ahead Time-Series Forecasting Online} by Johan Hallberg Szabadváry.
+
+        \2\emph{ConForME: Multi-horizon conditional conformal time series forecasting} by Aloysio Galvao Lopes, Eric Goubault, Sylvie Putot and Laurent Pautet.
+
+        \2\emph{Conformal time series decomposition with component-wise exchangeability} by Derck Prinzhorn, Thijmen Nijdam, Putri Van der Linden and Alexander Timans.
+
+    \1\textbf{Applications}
+        \2\emph{The Uncertain Object: Application of Conformal Prediction to Aerial and Satellite Images} by Vicky Copley, Greg Finlay and Ben Hiett.
+        \2\emph{Calibrated Large Language Models for Binary Question Answering} by Patrizio Giovannotti and Alexander Gammerman.
+        \2\emph{Clustered Conformal Prediction for the Housing Market} by Anders Hjort, Jonathan P. Williams and Johan Pensar.
+        \2\emph{Copula-based conformal prediction for object detection: a more efficient approach} by Bruce Cyusa Mukama, Soundouss Messoudi, Sylvain Rousseau and Sébastien Destercke.
+        \2\emph{Uncertainty Quantification for Metamodels} by Martin Okánik, Athanasios Trantas, Merijn Pepijn de Bakker and Elena Lazovik.
+        \2\emph{Reliable Change Point Detection for ACGH data} by Charalambos Eliades and Harris Papadopoulos.
+    \1\textbf{Regression}
+        \2\emph{CoPAL: Conformal Prediction in Active Learning An Algorithm for Enhancing Remaining Useful Life Estimation in Predictive Maintenance} by Zahra Kharazian, Tony Lindgren, Sindri Magnusson and Henrik Boström.
+        \2\emph{Distribution-free risk assessment of regression-based machine learning algorithms} by Sukrita Singh, Neeraj Sarna, Yuanyuan Li, Yang Lin, Agni Orfanoudaki and Michael Berger.
+        \2\emph{Conformal Regression with Reject Option} by Ulf Johansson, Cecilia Sönströd and Henrik Boström.
+    \1\textbf{Testing and Feature Selection}
+        \2\emph{Conformal Stability Measure of Feature Selection Algorithms} by Marcos López-De-Castro, Alberto García-Galindo and Rubén Armañanzas
+        \2\emph{Estimating Quality of Approximated Shapley Values Using Conformal Prediction} by Amr Alkhatib, Henrik Boström and Ulf Johansson
+        \2\emph{Testing Exchangeability between Real and Synthetic Data} by Helena Löfström, Lars Carlsson and Ernst Ahlberg
+        
+\end{outline}
+
+During the poster sessions the following contributions have been presented
+\begin{outline}
+    \1\textbf{Posters}
+        \2\emph{Distribution-free Uncertainty Quantification for Contour Objects with Application  to Tumour Segmentation in PET Imaging.} by Wenhui Zhang.
+        \2\emph{Fairness Considerations for Conformal Classification} by Arlan Abzhanov and Brieuc Lehmann.
+        \2\emph{Collective Outlier Detection and Enumeration with Conformalized Closed Testing} by Chiara Gaia Magnani, Matteo Sesia and Aldo Solari.
+        \2\emph{Preferent compression for tight generalization bounds} by Marco C. Campi and Simone Garatti.
+        \2\emph{Anomaly Detection in Multivariate Profiles with Conformal Bayesian Inference} by Nina Deliu and Brunero Liseo.
+\end{outline}
+
+We are extremely grateful to the programme and organising committees, whose hard work and dedication has made this conference possible. The programme committee was composed of Matteo Fontana (Italy), Alexander Balinsky (United Kingdom), Anthony Bellotti (China), Souhaib Ben Taieb (Belgium), Teresa Bortolotti (Italy), Tanguy Bosser (Belgium), Henrik Boström (Sweden), Alberto Carlevaro (Italy), Lars Carlsson (Sweden), John Cherian (USA), Giovanni Cherubin (United Kingdom), Sébastien Destercke (France), Victor Dheur (Belgium), Alexander Gammerman (United Kingdom), Shen-Shyang Ho (USA), Ulf Johansson (Sweden), Yuri Kalnishkan (United Kingdom), Zhiyuan Luo (United Kingdom), Tuwe Löfström (Sweden), Soundouss Messoudi (France), Maurizio Mongelli (Italy), Sara Narteni (Italy), Khuong An Nguyen (United Kingdom), Ilia Nouretdinov (United Kingdom), Harris Papadopulos (Cyprus), Ivan Petej (United Kingdom), Matteo Sesia (USA), Evgueni Smirnov (The Netherlands), Aldo Solari (Italy), Simone Vantini (Italy), Rahul Vishwakarma (USA), Vladimir Vovk (United Kingdom), Fan Yang (China).
+
+We are also extremely thankful to the Department of Mathematics of Politecnico di Milano, that has provided this sponsorship for the event.
+
+\end{document}
