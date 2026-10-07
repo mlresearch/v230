@@ -3,7 +3,7 @@ title: Proceedings of Machine Learning Research
 booktitle: Proceedings of the Thirteenth Symposium on Conformal and Probabilistic
   Prediction with Applications
 shortname: COPA
-start: &1 2024-09-09
+start: 2024-09-09
 end: 2024-09-11
 published: 2024-09-10
 conference_number: '13'
@@ -82,7 +82,7 @@ conference:
   url: https://copa-conference.com/
   location: Politecnico di Milano, Milano, Italy
   dates:
-  - *1
+  - 2024-09-09
   - 2024-09-10
   - 2024-09-11
 analytics:
